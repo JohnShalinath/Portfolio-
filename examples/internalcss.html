@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Internal CSS Example</title>
+    <style>
+      div div {
+        color: red;
+        font-size: 48px;
+      }
+
+      #firstDiv {
+        color: blue;
+      }
+
+      .highlight {
+        background-color: yellow;
+      }
+
+      .card {
+
+        border-radius: 24px;
+        /* offset-x, offset-y, blur-radius, spread-radius */
+        box-shadow: 10px 10px 12px 4px rgb(0, 0, 0, 0.5);
+        margin: 24px;
+        margin-bottom: 48px;
+        padding: 36px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      Lorem Ipsum is simply dummy text of
+      the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard
+      dummy text ever since the 1500s, when an unknown
+      printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries,
+      but also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with
+      the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+      with desktop publishing software like Aldus PageMaker including
+      versions of Lorem Ipsum.
+    </div>
+
+    <div id="firstDiv" class="card">
+      This is my first interally styled div
+    </div>
+    <div>This is another div</div>
+    <div class="highlight card">
+      This is another div
+    </div>
+      <div class="highlight">
+        This is another div
+    </div>
+  </body>
+</html>
