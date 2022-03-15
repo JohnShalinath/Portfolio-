@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 7</title>
+    <style>
+    div {
+      Background: blue;
+      border: 1px solid black;
+      margin: 8px;
+      padding: 13px;
+    }
+    </style>
+  </head>
+  <body>
+  <div>
+    Website using only Div Elements
+  </div>
+  </body>
+</html>
