@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+         <title>Grid Examples</title>
+         <style>
+             .block {
+                padding: 20px;
+             }
+             .block1 {
+                background-color: red;
+                /* grid-column: 1 / 4; */
+                grid-area: footer;
+             }
+             .block2 {
+                background-color: blue;
+                /* grid-colum: 2 / 4;
+                grid-row: 2 / 6; */
+                grid-area: content;
+             }
+             .block3 {
+                background-color: green;
+                grid_area: sidnav
+                /* grid-column: 1;
+                grid-row: 2 / 4; */
+             }
+             .block4 {
+                background-color: orange;
+                grid-area: header1;
+             }
+             .block5 {
+                background-color: yellow;
+                grid-area: nav;
+             }
+             .block6 {
+                background-color: purple;
+                grid-area: picCol1;
+             }
+             .block7 {
+                background-color: black;
+                color: white;
+             }
+             .myGrid {
+                 display: grid;
+                 grid-template-columns: 1fr 400px 1fr; /* repeat(#, repeating values) */
+                 grid-auto-rows: minmax(100px, auto);
+                 gap: 20px 10px;
+                 grid-template-areas:
+                     "header1 header1 header1"
+                     "nav nav nav"
+                     "sidenav content content"
+                     "sidenav content content"
+                     "sidenav pic1 pic2"
+                     "footer footer footer";
+               }
+             </style>
+          </head>
+          <body>
+            <div class="myGrid">
+              <div class="block block1">1</div>
+              <div class="block block2">
+                Ita aute si velit. Nulla probant arbitror, labore mandaremus
+                exercitation, nescius o cernantur, quibusdam summis
+                proident, iis ex sempiternum, noster cernantur sempiternum
+                ea a admodum philosophari ex proident summis officia. In
+                esse in quae. Si aute cupidatat, o proident iis fabulas quo
+                de veniam arbitror sed de fore iudicem. Minim mandaremus est,
+                occaecat, quo cillum ipsum fore admodum. Senserit sed
+                offendit. Vidisse noster legam ubi quem, legam nescius iis
+                relinqueret. Fabulas illum quis in malis.
+              </div>
+              <div class="block block3">3</div>
+              <div class="block block4">4</div>
+              <div class="block block5">5</div>
+              <div class="block block6">6</div>
+              <div class="block block7">7</div>
+            </div>
+          </body>
+        </html>
