@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Assignment 13</title>
+    <style>
+      .padding {
+        padding: 2px;
+      }
+      .griditem1 {
+        background: linear-gradient(to top,yellow,white);
+        color: pink;
+        font-family: verdana;
+        font-size: 77px;
+        font-weight: bold;
+        font-color: white;
+        grid-area: header;
+      }
+      .griditem2 {
+        background-color: pink;
+        font-family: verdana;
+        grid-area: sidenav;
+      }
+      .griditem4 {
+        background-color: lightblue;
+        grid-area: content2;
+      }
+      .griditem5 {
+        grid-area: content3;
+        overflow: hidden;
+      }
+      .griditem6 {
+        background-color: #dbdbdb;
+        border: 5px solid #2b2b2b;
+        grid-area: photo;
+      }
+      .thing {
+        background-color: #bd6c6c;
+        font-family: verdana;
+        grid-area: thing;
+      }
+      .sidething {
+        background-color: #9c9c9c;
+        font-family: verdana;
+        grid-area: sidething;
+      }
+      .griditem7 {
+        background-color: #4a4a4a;
+        color: white;
+        font-family: verdana;
+        font-size: 25px;
+        grid-area: footer;
+      }
+      .gridcontainer {
+        display: grid;
+        grid-template-columns: 15% 60.3% 4% 5% 15%;
+        grid-template-rows: 100px px 100px 100px 100px;
+        grid-gap: 10px;
+        grid-template-areas:
+
+        "header header header header header"
+        "sidenav character character character character"
+        "sidenav content2 content3 photo photo"
+        "sidenav content2 content3 photo photo"
+        "sidenav content2 content3 photo photo"
+        "footer footer footer footer footer"
+        ;
+      }
+      ul {
+        list-style-type: none;
+        padding-inline-start: 0px;
+      }
+      hr {
+        border: px solid white;
+      }
+      #line {
+        border: 2px dotted white;
+      }
+      h3 {
+        color: white;
+        font-weight: regular;
+      }
+      h2 {
+        font-family: verdana;
+        font-size: 40px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      p {
+        font-size: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gridcontainer">
+      <div class="griditem1 padding">Lisa from BlackPink</div>
+      <div class="griditem2 padding">
+        <h3>her skills</h3>
+        <ul>
+          <a href="#"><li>Brilliant rap skills</li></a>
+          <br>
+          <a href="#"><li>Fascinating dance skills</li></a>
+          <br>
+          <a href="#"><li>Amazing language skills</li></a>
+          <br>
+          <a href="#"><li>Unrealistic appearance</li></a>
+          <br>
+          <a href="#"><li>Pure heart and sociability </li></a>
+        </ul>
+      </div>
+      <div class="griditem4 padding">
+        <h2>About</h2>
+        <p>Lalisa Manobal (also spelled Manoban; born Pranpriya Manobal, March 27, 1997), known mononymously as Lisa, is a Thai rapper, singer and dancer based in South Korea. She is a member of the South Korean girl group Blackpink formed by YG Entertainment.
+
+Lisa made her solo debut with her single album Lalisa in September 2021. The album sold over 736,000 copies in its release week in South Korea, making her the first female artist to do so. The music video for its lead single of the same name recorded 73.6 million views on YouTube in first 24 hours of its release, becoming the most-viewed music video in the first 24 hours on the platform by a solo artist.</p>
+        <hr id="line">
+        <h2>Places she traveled</h2>
+           <p>South Korea, Thailand, Indonesia, China, Philippines, Malaysia, United States, Canada, Netherlands, UK, Germany, France, Spain, Australia, Japan</p>
+        <hr id="line">
+      </div>
+      <div class="griditem5 padding"><img style="width: 1530px" src="../images/photo-1522383225653-ed111181a951.jpg" /></div>
+      <div class="griditem6 padding"><img style="width: 340px" src="../images/88850917.webp" /></div>
+      <div class="thing padding">
+      </div>
+      <div class="griditem7 padding">&copy 2022 Lisa from BlackPink Inc. Johns's 13th Assignment</div>
+    </div>
+  </body>
+</html>
