@@ -51,14 +51,19 @@
       /* your CSS for tablet goes in here */
       @media screen and (min-width: 480px) and (max-width: 799px) {
         aside .fakeLink {
-          padding: 110px;
-          width: 49%;
+          padding: 20px;
+          width: 50%;
 
         }
 
-        .fakeLink {
+        .fakeLink2 {
+        padding: 20px;
+        width: 50%;
+
+        }
+
+        nav {
         display: flex;
-        flex-direction: column;
 
         }
 
@@ -75,7 +80,7 @@
        /* your CSS for desktop goes in here */
        @media screen and (min-width: 800px) {
         nav .fakeLink{
-         padding: 13px 110px;
+         flex: 1px;
       }
 
         nav {
@@ -92,13 +97,15 @@
         }
 
         aside .fakeLink2{
-          padding: 80px 81px;
-          width: 33%;
+          flex: 1;
+          padding: 20px;
+          flex-basis: 100%
 
         }
 
         aside .fakeLink {
-         padding: 16px 442px;
+          flex: 1;
+         padding: 3px 30px;
         }
 
 
