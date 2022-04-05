@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>forms examples</title>
+<style>
+#firstNameContainer label,
+#lastNameContainer label {
+display: block;
+}
+#firstNameContainer {
+margin-bottom: 12px;
+}
+#firstNameContainer input {
+border: 2px dashed red;
+border-radius: 4px;
+padding: 12px;
+}
+#firstNameContainer input:focus-visible {
+outline: 5px solid blue;
+}
+#lastNameContainer input {
+background-color: skyblue;
+border: 0;
+padding: 12px;
+}
+#lastNameContainer input:focus-visible {
+outline: 0;
+}
+textarea {
+font-family: Verdana, sans-serif;
+font-size: 20px;
+width: 500px;
+}
+#buttonContainer input[type=button] {
+border: 1px solid black;
+border-radius: 6px;
+cursor: pointer;
+padding: 12px;
+margin-right: 12px;
+}
+#buttonContainer input:focus-visible {
+outline: 0;
+}
+#buttonContainer input[type=reset] {
+background: linear-gradient(to bottom, pink, red);
+border:1px solid black;
+border-radius: 6px;
+cursor: pointer;
+padding: 12px;
+margin-right: 12px;
+}
+#buttonContainer input[type=reset]:active {
+background: linear-gradient(to top, pink, red);
+}
+#buttonContainer input[type=submit] {
+background: linear-gradient(to bottom, lightblue, blue);
+border: 0;
+border-radius: 8px;
+cursor: pointer;
+padding: 12px 30px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<form action="submission_action.php">
+<h2>Text Inputs</h2>
+<div id="firstNameContainer">
+<label for="firstNameInput">First Name</label>
+<input type="text" id="firstNameInput" name="firstName">
+</div>
+<div id="lastNameContainer">
+<label for="lastNameInput">Last Name</label>
+<input type="text" id="lastNameInput" name="lastName">
+</div>
+
+
+
+<h2>Textarea Inputs</h2>
+<div>
+<label for="codeFeelingsID">How do you feel about coding?</label>
+<br>
+<textarea id="codeFeelingsTD" rows="5"></textarea>
+</div>
+
+
+
+<h2>Radio Inputs</h2>
+<p>What FIRST program are you in?</p>
+<div>
+<input type="radio" id="raspRadio" name="program" value="rasp">
+<label for="raspRadio">Recording Arts and Show Production</label>
+</div>
+<div>
+<input type="radio" id="dfvpRadio" name="program" value="dfvp">
+<label for="dfvpRadio">Digital Filmmaking and Video Production</label>
+</div>
+<div>
+<input type="radio" id="gdwdRadio" name="program" value="gdwd">
+<label for="">Graphic Design and Web Development</label>
+</div>
+
+
+
+<h2>Checkbox Inputs</h2>
+<p>How do you get to class?</p>
+<div>
+<input type="checkbox" id="bikeCheckbox" name="vehicleOption1" value="bike">
+<label for="bikeCheckbox">Bike</label>
+</div>
+<div>
+<input type="checkbox" id="busCheckbox" name="vehicleOption1" value="bus">
+<label for="busCheckbox">Bus</label>
+</div>
+<div>
+<input type="checkbox" id="carCheckbox" name="vehicleOption1" value="car">
+<label for="carCheckbox">Car</label>
+</div>
+<div>
+<input type="checkbox" id="bedCheckbox" name="vehicleOption1" value="bed">
+<label for="bedCheckbox">I roll out of bed</label>
+</div>
+
+
+
+<h2>Date Inputs</h2>
+<div>
+<label for="dateID">What is your birthday?</label>
+<input type="date" id="dateID" name="bday">
+</div>
+
+
+
+<h2>Dropdown (select) Inputs</h2>
+<div>
+<label for="foodGroupID">What is your favorite food group?</label>
+<select id="foodGroupID" name="foodGroup">
+<option value="">--Select an option--</option>
+<option value="fruits">Fruits</option>
+<option value="vegetables">Vegetables</option>
+<option value="Meats">Meats</option>
+<option value="grains">Fruits</option>
+</select>
+</div>
+
+
+
+<h2>Button Input</h2>
+<div id="buttonContainer">
+<input type="button" value="Click me!">
+<input type="reset" value="Click to reset">
+<input type="submit" value="submit">
+</div>
+</form>
+</body>
+</html>
