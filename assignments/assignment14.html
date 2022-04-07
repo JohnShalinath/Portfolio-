@@ -1,0 +1,74 @@
+
+  <!DOCTYPE html>
+    <html lang="en-US">
+ <head>
+  <title>assignment14</title>
+ <style>
+  #loaction label,
+  #when label,
+  #Transportation label,
+  #background label{
+   display: inline-block;
+ }
+  #loaction input {
+   border: 6px solid orange;
+   padding: 6px;
+ }
+  #when input {
+   border: 6px dashed orange;
+   padding: 6px;
+ }
+  #Transportation input {
+   border: 6px solid orange;
+   padding: 6px;
+ }
+  #button {
+   padding: 20px 0px;
+ }
+   #background {
+     color: purple;
+ }
+
+ } </style>
+   </head>
+  <body> <form action="submission_action.php"> <p>Where would you like to travle in the future?</p>
+
+ <div id="loaction">
+   <label for="locationinfo">Location?</label>
+   <input type="text" id="locationinfo" name="loaction">
+    </div>
+
+
+<div id="when">
+  <label for="wheninfo">When?</label>
+  <input type="text" id="wheninfo" name="when">
+   </div>
+
+
+<div id="Transportation">
+  <label for="Transportationinfo">What Transportation?</label>
+  <input type="text" id="Transportationinfo" name="Transportation">
+</div> <p>Select which is your favorit movie genres</p>
+
+
+<div>
+  <input type="radio" id="Radio1" name="program" value="op1">
+  <label for="Radio1">Action</label>
+   </div>
+
+<div>
+  <input type="radio" id="Radio2" name="program" value="op2">
+  <label for="Radio2">Romance</label>
+   </div>
+
+
+<div>
+  <input type="radio" id="Radio3" name="program" value="op3">
+  <label for="Radio3">Comedy</label>
+   </div> <div id="button">
+
+
+    <input type="submit" value="Click to Submit!">
+     </div> </form>
+   </body>
+ </html>
