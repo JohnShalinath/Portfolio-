@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+    <title>Graduation Countdown</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      #countdown {
+        color: white;
+        font-size: 65px;
+        text-align: center;
+        font-family: fantasy;
+      }
+      img {
+        width: 790px;
+        flex: 1;
+      }
+      #logoContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 90px;
+      }
+    #hero {
+      align-items: center;
+      background-image: url(../images/graduation.jpg);
+      background-position: center top;
+      display: flex-column;
+      height: 1000px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="logoContainer">
+    <div id="logo">
+        <img src="../images/9C9A1E81-7A10-4962-87BF-7AC881EB808F.jpg" alt="logo">
+      </div>
+    </div>
+    <div id="hero">
+      <br>
+      <h1>Countdown to Graduation Day</h1>
+      <br>
+      <hr>
+      <h2 id="countdown">102 days 5 hours 57 minutes 46 seconds </h2>
+    </div>
+    <script type="text/javascript">
+      let deadline = new Date("July 22, 2022 16:30:00");
+
+      function setCountdown() {
+        let now = new Date();
+
+        // # of milliseconds between deadline and now
+        let timeLeft = deadline.getTime() - now.getTime();
+
+        let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        let hours = Math.floor(
+          (timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor(
+          (timeLeft % (1000 * 60 * 60)) / (1000 * 60)
+        );
+        var seconds = Math.floor(
+          (timeLeft % (1000 * 60)) / 1000
+        );
+
+        document.getElementById('countdown').innerHTML =
+          days + ' days ' + hours + ' hours ' + minutes + ' minutes '
+            + seconds + ' seconds ';
+      }
+
+      setInterval(setCountdown, 1000);
+    </script>
+</body>

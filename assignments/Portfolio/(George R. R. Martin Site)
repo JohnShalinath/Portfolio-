@@ -1,4 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <!--clean-->
 <meta charset="UTF-8">
@@ -86,7 +85,41 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://georgerrmartin.com/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://georgerrmartin.com/wp-includes/wlwmanifest.xml">
 <meta name="generator" content="WordPress 5.3.12">
-
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//georgerrmartin.com/?wordfence_lh=1&hid=ED91CD55DF95027428B54E836EAF3BD7');
+</script>
   <script src="//cdn.geni.us/snippet.min.js" defer=""></script>
   <script type="text/javascript">
     jQuery(document).ready(function( $ ) {
@@ -102,9 +135,9 @@ img.emoji {
 	  };
     });
   </script>
-</head>
+<script type="text/javascript" async="" src="//georgerrmartin.com/?wordfence_lh=1&amp;hid=ED91CD55DF95027428B54E836EAF3BD7&amp;r=0.670590092511312"></script></head>
 
-<body class="home blog two-column right-sidebar" data-new-gr-c-s-check-loaded="14.1055.0" data-gr-ext-installed="">
+<body class="home blog two-column right-sidebar" data-new-gr-c-s-check-loaded="14.1056.0" data-gr-ext-installed="">
 <div id="grrmbody" style="background-image: url(https://www.georgerrmartin.com/theme/overall-bg.jpg);">
 <div id="page" class="hfeed" style="background-image: url(https://www.georgerrmartin.com/theme/content-bg.jpg);">
 	<header id="branding" role="banner" style="background-image: url(https://www.georgerrmartin.com/theme/header-bg.jpg);">
@@ -285,20 +318,20 @@ img.emoji {
 
 
         <!--#1 -->
-  <div class="contentdiv" style="display: block; z-index: 133; opacity: 1; visibility: visible;"><a href="https://www.penguinrandomhouse.com/books/609080/the-world-of-fire-and-blood-2023-calendar-by-george-r-r-martin/"><img src="http://georgerrmartin.com/wp-content/uploads/2022/03/GRRM_Calendar-2023-slide.jpg" alt=""></a></div>
+  <div class="contentdiv" style="display: block; z-index: 71; opacity: 1; visibility: visible;"><a href="https://www.penguinrandomhouse.com/books/609080/the-world-of-fire-and-blood-2023-calendar-by-george-r-r-martin/"><img src="http://georgerrmartin.com/wp-content/uploads/2022/03/GRRM_Calendar-2023-slide.jpg" alt=""></a></div>
 
       <!--#2 -->
-  <div class="contentdiv" style="display: none; z-index: 129; opacity: 1; visibility: visible;"><a href="https://www.wildcardsworld.com"><img src="http://georgerrmartin.com/wp-content/uploads/2022/03/GRRM-wildcards-callout.jpg" alt=""></a></div>
+  <div class="contentdiv" style="display: none; z-index: 67; opacity: 1; visibility: visible;"><a href="https://www.wildcardsworld.com"><img src="http://georgerrmartin.com/wp-content/uploads/2022/03/GRRM-wildcards-callout.jpg" alt=""></a></div>
 
 
      <!--#4 -->
-  <div class="contentdiv" style="display: none; z-index: 130; opacity: 1; visibility: visible;"><a href="https://www.wildcardsworld.com/book/wild-cards-xi-dealers-choice/"><img src="http://georgerrmartin.com/wp-content/uploads/2020/10/GRRM-callout-dealer.jpg" alt=""></a></div>
+  <div class="contentdiv" style="display: none; z-index: 68; opacity: 1; visibility: visible;"><a href="https://www.wildcardsworld.com/book/wild-cards-xi-dealers-choice/"><img src="http://georgerrmartin.com/wp-content/uploads/2020/10/GRRM-callout-dealer.jpg" alt=""></a></div>
 
       <!--#5 -->
-  <div class="contentdiv" style="display: none; z-index: 131; opacity: 1; visibility: visible;"><a href="http://www.georgerrmartin.com/grrm_book/fire-and-blood/" target="_blank"><img src="https://georgerrmartin.com/wp-content/themes/GRRM/images/FandB-banner.jpg" alt=""></a></div>
+  <div class="contentdiv" style="display: none; z-index: 69; opacity: 1; visibility: visible;"><a href="http://www.georgerrmartin.com/grrm_book/fire-and-blood/" target="_blank"><img src="https://georgerrmartin.com/wp-content/themes/GRRM/images/FandB-banner.jpg" alt=""></a></div>
 
       <!--#6 -->
-  <div class="contentdiv" style="display: none; z-index: 132; opacity: 1; visibility: visible;"><a href="http://www.wildspiritwolfsanctuary.org/westeros_pack.php" target="_blank"><img src="https://georgerrmartin.com/wp-content/uploads/2014/10/GRRM-MAIN-wildspirit.jpg" alt=""></a></div>
+  <div class="contentdiv" style="display: none; z-index: 70; opacity: 1; visibility: visible;"><a href="http://www.wildspiritwolfsanctuary.org/westeros_pack.php" target="_blank"><img src="https://georgerrmartin.com/wp-content/uploads/2014/10/GRRM-MAIN-wildspirit.jpg" alt=""></a></div>
 
 
 
