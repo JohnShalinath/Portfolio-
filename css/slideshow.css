@@ -1,8 +1,13 @@
 #slideshow {
-  height: 400px;
+  height: 700px;
   text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 .slideshowImage {
-  width: 500px;
+  width: 600px;
+  height: 700px;
 }
+
+body {background-color: black;}
