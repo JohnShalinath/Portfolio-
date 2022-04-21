@@ -154,7 +154,7 @@ h3 { font-size: var(--fs-h3) }
     right: 0;
     z-index: 100;
 
-    transform: translatex(100%);
+    transform: translateX(100%);
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
@@ -181,14 +181,14 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .nav-toggle {
-  padding: .5em;
-  background: transparent;
-  border: 0;
-  cursor: pointer;
-  position: absolute;
-  right: 1em;
-  top: 1em;
-  z-index: 1000;
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
 }
 
 .nav-open .nav {
